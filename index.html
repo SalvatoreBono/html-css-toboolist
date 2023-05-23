@@ -5,7 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <title>Toboolist</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Logo + Titolo -->
+    <header id="Parte-Principale">
+      <img id="Logo" src="img/Logo.png" alt="Logo" />
+      <h1 id="Titolo">Toboolist</h1>
+    </header>
+    <!-- Testo Centrale -->
+    <main id="Parte-Centrale">
+      <section>
+        <div class="Spostamento">
+          <button class="button" id="Modifica-Primo-Bottone">Add Task</button>
+          <button class="button" id="Modifica-Secondo-Bottone">
+            Add Section
+          </button>
+        </div>
+        <hr id="riga" />
+      </section>
+      <div id="Spostamento-Aggiuntivo" class="Spostamento">
+        <!-- New Task -->
+        <section>
+          <h2>&#9662; New Task</h2>
+          <span>
+            <span class="check Modifica-Entities">&#10003;</span> Quarterly
+            Newsletter</span
+          >
+          <span class="Azzurro Sfondo-Task">Editorial</span>
+        </section>
+        <!-- Today -->
+        <section>
+          <h2>&#9662; Today</h2>
+          <div class="Spazio-Task">
+            <span class="check Modifica-Entities">&#10003;</span> Recruiting
+            blog post <span class="Azzurro Sfondo-Task"> Editorial</span>
+          </div>
+          <div class="Spazio-Task">
+            <span class="check Modifica-Entities">&#10003;</span> Mobile app
+            luaunch <span id="Viola" class="Sfondo-Task"> Q1 Goals</span>
+          </div>
+          <div class="Spazio-Task">
+            <span class="cross Modifica-Entities">&cross;</span> Interview John
+            H.
+            <span id="Verde" class="Sfondo-Task"> Recruiting</span>
+          </div>
+          <div class="Spazio-Task">
+            <span class="check Modifica-Entities">&#10003;</span> Summit update
+            to mobiile storefronts
+            <span id="Arancione" class="Sfondo-Task"> Mobile</span>
+          </div>
+        </section>
+        <!-- Upcoming -->
+        <section>
+          <h2>&#9662; Upcoming</h2>
+          <div class="Spazio-Task">
+            <span class="cross Modifica-Entities">&cross;</span> Schedule
+            meeting with Alex
+          </div>
+          <div class="Spazio-Task">
+            <span class="check Modifica-Entities">&#10003;</span> Homepage
+            refresh
+            <span id="Rosa" class="Sfondo-Task"> Website</span>
+          </div>
+          <div class="Spazio-Task">
+            <span class="check Modifica-Entities">&#10003;</span> Onboard new
+            Sales team members
+            <span id="Pistacchio" class="Sfondo-Task"> Sales</span>
+          </div>
+          <div class="Spazio-Task">
+            <span class="check Modifica-Entities">&#10003;</span> Review
+            editorial calendar
+            <span class="Azzurro Sfondo-Task"> Editorial</span>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>

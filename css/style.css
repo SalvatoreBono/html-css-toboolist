@@ -1,0 +1,94 @@
+*{
+   margin: 0;
+   box-sizing: border-box;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+}
+body{
+   background-color: rgba(211, 211, 211, 0.224)
+}
+header, main{
+   background-color: white;
+}
+#Parte-Principale{
+   padding: 15px;
+}
+#Logo, #Titolo{
+   vertical-align: middle;
+}
+#Titolo{
+   display: inline;
+   font-size: 45px;
+}
+#Parte-Centrale{
+   width: 900px;
+   height: 650px;
+   margin: 50px auto;
+   border-radius: 2%;
+}
+.Spostamento{
+   padding-top: 15px;
+   margin-left: 50px;
+}
+.button{
+   padding: 5px;
+   border-radius: 5px;
+}
+#Modifica-Primo-Bottone{
+   background-color:rgb(71, 173, 241);
+   color: white;
+   border: none;
+}
+#Modifica-Secondo-Bottone{
+   border: 2px solid rgb(206, 211, 215);
+   color: rgb(206, 211, 215);
+   background-color: white;
+}
+#riga{
+   margin-top: 5px;
+   border: 2px solid rgba(211, 211, 211, 0.224);
+}
+h2{
+   margin-top: 25px;
+   margin-bottom: 10px;
+}
+.Sfondo-Task{
+   color: white;
+   padding: 7px;
+   border-radius: 15px;
+   font-size: 10px;
+}
+.Modifica-Entities{
+   padding: 2px;
+   border-radius: 50%;
+   
+}
+.check{
+   color: rgb(147, 213, 199);
+   border: 1px solid rgb(147, 213, 199);
+}
+.cross{
+   color: rgb(237, 113, 107);
+   border: 1px solid rgb(237, 113, 107);
+}
+.Spazio-Task{
+   margin-bottom: 25px;
+}
+.Azzurro{
+   background-color: rgb(69, 171, 234);
+}
+#Viola{
+   background-color: rgb(156, 114, 228);
+}
+#Verde{
+   background-color: rgb(100, 192, 169);
+}
+#Arancione{
+   background-color: rgb(242, 158, 51);
+}
+#Rosa{
+   background-color: rgb(216, 99, 161);
+}
+#Pistacchio{
+   background-color: rgb(176, 201, 38);
+}

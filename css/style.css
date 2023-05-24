@@ -10,23 +10,23 @@ body{
 header, main{
    background-color: white;
 }
-#Parte-Principale{
+#parte-principale{
    padding: 15px;
 }
-#Logo, #Titolo{
+#logo, #titolo{
    vertical-align: middle;
 }
-#Titolo{
+#titolo{
    display: inline;
    font-size: 45px;
 }
-#Parte-Centrale{
+#parte-centrale{
    width: 900px;
    height: 650px;
    margin: 50px auto;
    border-radius: 2%;
 }
-.Spostamento{
+.spostamento{
    padding-top: 15px;
    margin-left: 50px;
 }
@@ -34,12 +34,12 @@ header, main{
    padding: 5px;
    border-radius: 5px;
 }
-#Modifica-Primo-Bottone{
+#modifica-primo-bottone{
    background-color:rgb(71, 173, 241);
    color: white;
    border: none;
 }
-#Modifica-Secondo-Bottone{
+#modifica-secondo-bottone{
    border: 2px solid rgb(206, 211, 215);
    color: rgb(206, 211, 215);
    background-color: white;
@@ -52,13 +52,13 @@ h2{
    margin-top: 25px;
    margin-bottom: 10px;
 }
-.Sfondo-Task{
+.sfondo-task{
    color: white;
    padding: 7px;
    border-radius: 15px;
    font-size: 10px;
 }
-.Modifica-Entities{
+.modifica-entities{
    padding: 2px;
    border-radius: 50%;
    
@@ -71,24 +71,24 @@ h2{
    color: rgb(237, 113, 107);
    border: 1px solid rgb(237, 113, 107);
 }
-.Spazio-Task{
+.spazio-task{
    margin-bottom: 25px;
 }
-.Azzurro{
+.azzurro{
    background-color: rgb(69, 171, 234);
 }
-#Viola{
+#viola{
    background-color: rgb(156, 114, 228);
 }
-#Verde{
+#verde{
    background-color: rgb(100, 192, 169);
 }
-#Arancione{
+#arancione{
    background-color: rgb(242, 158, 51);
 }
-#Rosa{
+#rosa{
    background-color: rgb(216, 99, 161);
 }
-#Pistacchio{
+#pistacchio{
    background-color: rgb(176, 201, 38);
 }
